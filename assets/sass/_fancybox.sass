@@ -1,0 +1,144 @@
+/* FancyBox */
+.fancybox-bg
+    // background: $color-01
+.fancybox-is-open .fancybox-bg
+    opacity: 1
+.fancybox-caption, .fancybox-infobar, .fancybox-navigation .fancybox-button, .fancybox-toolbar
+    visibility: visible
+    opacity: 1
+.fancybox-button
+    background: transparent
+    padding: 0
+.fancybox-button, .fancybox-button:link, .fancybox-button:visited
+    color: $color-ff
+.fancybox-button--zoom,
+.fancybox-button--play,
+.fancybox-button--thumbs
+    display: none !important
+.fancybox-button--close
+    position: relative
+    right: 25px
+    width: 30px
+    height: 30px
+    padding: 0
+    margin: 10px 0
+.fancybox-infobar
+    left: auto
+    right: 30px
+    top: 60px
+    color: $color-ff
+    width: 60px
+    padding: 5px 0 30px 0
+    @extend %font-1-light
+    &::before
+        content: ""
+        display: block
+        border-top: solid 1px $color-ff
+        // border-left: solid 3px $color-ff
+        // height: 30px
+        width: 100%
+        max-width: 195px
+        position: absolute
+        top: 0
+        left: 0
+.fancybox-navigation .fancybox-button
+    width: 54px
+    height: 47px
+    background: transparent
+    div
+        display: none
+.fancybox-navigation .fancybox-button--arrow_right,
+.fancybox-navigation .fancybox-button--arrow_left
+    padding: 0
+    background-position: center
+    background-repeat: no-repeat
+.fancybox-navigation .fancybox-button--arrow_right
+    background-image: url(../images/icons/arrow-next.svg)
+    right: calc( 65px + 30px - 57px)
+    top: calc(60px + 75px)
+.fancybox-navigation .fancybox-button--arrow_left
+    background-image: url(../images/icons/arrow-prev.svg)
+    left: auto
+    right: calc( 65px + 30px - 57px)
+    top: calc(60px + 47px + 47px + 25px)
+.fancybox-caption
+    text-align: left
+    @extend %font-1-light
+    .title2
+        @extend %font-1-bold
+
+.fancybox-button--close
+    width: 40px
+    height: 40px
+    background-image: url(../images/icons/close.svg)
+    background-position: center
+    background-repeat: no-repeat
+    background-size: contain
+    margin-right: 25px
+    svg
+        display: none
+
+
+@media screen and (min-width: 1400px)
+    // .fancybox-content
+    //     position: absolute !important
+    //     top: 50px !important
+    //     bottom: 50px !important
+    //     left: calc(195px + 45px) !important
+    //     right: calc(195px + 45px) !important
+    //     transform: translate(0,0) !important
+    //     width: calc(100% - ((195px + 45px) * 2)) !important
+    //     height: 100% !important
+    //     display: flex !important
+    //     align-items: center !important
+    //     justify-content: center !important
+    //     img
+    //         position: relative !important
+    //         max-width: 100% !important
+    //         width: auto !important
+    //         height: auto !important
+    .fancybox-infobar
+        // top: 25%
+        // top: 20%
+        top: 220px
+        width: 100%
+        max-width: 195px
+        font-size: 24px
+    .fancybox-navigation .fancybox-button--arrow_right
+        right: calc(195px + 30px - 54px)
+        top: 80px
+        // top: auto
+        // bottom: calc(25% + 75px)
+    .fancybox-navigation .fancybox-button--arrow_left
+        right: calc(195px + 30px - 54px)
+        top: 130px
+        // top: auto
+        // bottom: calc(25% + 75px - 50px)
+    .fancybox-caption
+        left: auto
+        right: 30px
+        // top: 50%
+        // top: 30%
+        top: 280px
+        width: 100%
+        max-width: 195px
+        margin-top: 0
+        background: transparent
+        padding: 15px 0 0 0
+        // font-size: $font-size-18
+        &::before
+            content: ""
+            display: block
+            width: 100%
+            max-width: 65px
+            height: 3px
+            // background-color: $color-30
+            position: absolute
+            top: 0
+            left: 0
+        
+    .fancybox-slide--image
+        padding: 44px 0 !important
+
+    .fancybox-button--close
+        margin-right: 160px

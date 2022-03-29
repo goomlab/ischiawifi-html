@@ -1,0 +1,94 @@
+// // body:not(.front-page) footer,
+// .page:not(.front-page) footer
+//     background-color: $color-00
+
+footer
+    position: relative
+    color: $color-ff
+    padding: 5rem 0 2rem 0
+    @extend %font-1-light
+    background-color: $color-10
+    font-size: 15px
+    
+    a, a:visited
+        color: $color-ff
+    a:hover
+        opacity: 0.8
+
+    > .row:first-child > [class*="col-"],
+    > .container-full > .row:first-child > [class*="col-"]
+        margin-bottom: 60px
+
+    .logo img
+        width: 100%
+        max-width: 155px
+
+    .footer-title
+        @extend %font-1-bold
+    .footer-title, .footer-menu, p
+        margin-bottom: 30px
+
+    .footer-menu
+        @extend %ul-reset
+        // margin-bottom: 30px
+        li
+            a, a:visited, a:hover
+                color: $color-ff
+            i
+                color: $color-ff
+                font-size: 26px
+
+    .social-menu
+        @extend %ul-reset
+        display: flex
+        margin-left: -8px
+        margin-right: -8px
+        margin-bottom: 30px
+        li
+            padding-left: 8px
+            padding-right: 8px
+            margin-bottom: 15px
+            a, a:visited, a:hover
+                color: $color-30
+                font-weight: 700
+            i
+                color: $color-30
+                font-size: 30px
+    
+    .footer-logos
+        @extend %ul-reset
+        li
+            margin-bottom: 30px
+            a
+                display: block
+                img
+                    width: 100%
+                    max-width: 160px
+
+    .footer-reviews
+        padding: 10px 0 10px 10px
+        border-top: solid 1px $color-ff
+        border-left: solid 1px $color-ff
+        border-bottom: solid 1px $color-ff
+    .footer-review
+        .author
+            font-size: 15px
+            font-weight: 700
+            margin-bottom: 10px
+            &::after
+                content: " —"
+        p
+            margin-bottom: 15px
+
+
+.fixed-buttons
+    @extend %ul-reset
+    position: fixed
+    right: .75rem
+    bottom: .75rem
+    display: flex
+    align-items: center
+    margin: 0 -5px
+    z-index: 10
+    li
+        margin: 0 5px

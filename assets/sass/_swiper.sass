@@ -1,0 +1,77 @@
+.swiper-box-home1
+    position: relative
+    .swiper-wrapper
+        height: auto !important
+    .figure-3-2
+        figure
+            @extend %figure-absolute
+    .trama
+        position: absolute
+        left: 0
+        right: 0
+        bottom: -5rem
+        height: 180px
+        background-image: url(../images/trama1.svg)
+        background-position: left
+        z-index: 1
+    .swiper-palette
+        width: 61px
+        height: 70px
+        position: absolute
+        bottom: 0
+        // left: calc((((100vw - ((8.33vw + 30px) * 2))) / 12 * 7) - 50px)
+        @media screen and (max-width: 991px)
+            top: -45px
+            right: 15px
+        @media screen and (min-width: 992px)
+            left: calc((((100vw - (30px * 2))) / 12 * 7) - 5px)
+        @media screen and (min-width: 1400px)
+            left: calc((100vw - ((8.33vw + 30px) * 2)) / 12 * 8)
+    .swiper-button-next, .swiper-button-prev
+        position: relative
+        top: auto
+        margin-top: 0
+        width: 61px
+        height: 35px
+        background-size: contain
+        background-position: center
+        &::after
+            display: none
+    .swiper-button-next, .swiper-container-rtl .swiper-button-prev
+        right: auto
+        left: auto
+        background-image: url(../images/icons/arrow-next-green.svg)
+        margin-bottom: 5px
+    .swiper-button-prev, .swiper-container-rtl .swiper-button-next
+        right: auto
+        left: auto
+        background-image: url(../images/icons/arrow-prev-green.svg)
+    .swiper-pagination
+        left: 30px
+        bottom: -20px
+        text-align: left
+        @media screen and (max-width: 991px)
+            display: none
+        @media screen and (min-width: 992px)
+            width: calc(100% - (30px * 2))
+        @media screen and (min-width: 1400px)
+            left: calc(8.33vw + 30px)
+            width: calc(100% - ((8.33vw + 30px) * 2))
+    .swiper-pagination-bullet:only-child
+        display: inline-flex !important
+    .swiper-pagination-bullet
+        width: 12px
+        height: 12px
+        background-color: $color-ff
+        border-color: solid 1px $color-10
+    .swiper-pagination-bullet-active
+        background-color: $color-10
+        border-color: solid 1px $color-10
+        opacity: 1
+    @media screen and (max-width: 991px)
+        .promo-item
+            margin-top: 3rem
+
+.swiper-box-reviews
+    .swiper-wrapper
+        height: auto

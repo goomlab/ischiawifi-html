@@ -1,0 +1,597 @@
+html, body
+    @extend %font-1-light
+    color: $color-00
+    line-height: 1.5
+    @media screen and (max-width: 575px)
+        font-size: $font-base
+    @media screen and (min-width: 576px)
+        font-size: $font-base-sm
+    @media screen and (min-width: 768px)
+        font-size: $font-base-md
+    @media screen and (min-width: 992px)
+        font-size: $font-base-lg
+    @media screen and (min-width: 1200px)
+        font-size: $font-base-xl
+.app
+    overflow-x: hidden
+main
+    margin-top: 90px
+
+a, a:hover, a:visited
+    color: $color-10
+    text-decoration: none
+a:hover
+    opacity: 0.9
+
+h1, h2, h3, h4, h5, h6
+    @extend %font-1-bold
+
+b
+    font-weight: 700
+    
+.z-index-1
+    z-index: 1
+.z-index-2
+    z-index: 2
+.no-padding
+    padding: 0
+
+@media screen and (max-width: 991px)
+    .no-mobile
+        display: none !important
+    .no-md-mobile
+        display: none !important
+    .mobile-order-0
+        order: 0
+    .mobile-order-1
+        order: 1
+    .mobile-order-2
+        order: 2
+@media screen and (min-width: 992px)
+    .no-desktop
+        display: none !important
+
+.animate__lazy
+    opacity: 0
+
+.container-full
+    @media screen and (max-width: 1399px)
+        margin-left: 30px
+        margin-right: 30px
+    @media screen and (min-width: 1400px)
+        margin-left: calc(8.33vw + 30px)
+        margin-right: calc(8.33vw + 30px)
+
+.position-relative
+    position: relative
+
+.row15
+    margin-left: -7.5px
+    margin-right: -7.5px
+    [class*="col-"]
+        padding-right: 7.5px
+        padding-left: 7.5px
+
+.bold
+    font-weight: 700
+
+.bg-10
+    background-color: $color-10 !important
+    &, & h1, & h2, & h3, & h4, & h5, & h6
+        color: #fff !important
+.bg-30
+    background-color: $color-30 !important
+    color: #fff !important
+.bg-03
+    background-color: $color-03
+    color: #fff
+.btn
+    @extend %font-1-bold
+    font-size: 1rem
+    -webkit-border-radius: 0
+    -moz-border-radius: 0
+    border-radius: 0
+    &:focus
+        box-shadow: none
+.btn-primary
+    background-color: $color-20
+    border-color: $color-20
+    &:hover
+        background-color: $color-20
+        border-color: $color-20
+        opacity: 0.9
+.btn-30
+    background-color: $color-30
+    border-color: $color-30
+    &:hover
+        background-color: $color-30
+        border-color: $color-30
+        opacity: 0.9
+
+
+.section
+    position: relative
+    overflow: hidden
+.secrtion-overflow-x
+    overflow-x: hidden
+.section-main
+    position: relative
+    padding: 5rem 0
+    &.only-padding-top
+        padding: 5rem 0 0 0
+    &.only-padding-bottom
+        padding: 0 0 5rem 0
+.no-overflow
+    overflow: visible
+
+.section-home
+    padding: 140px 0 180px 0
+    overflow-x: hidden
+
+.section-first
+    padding-top: 300px
+    @media screen and ( max-width: 575px )
+        padding-top: 200px
+        
+
+.section-article
+    padding-top: 120px
+    padding-bottom: 120px
+
+
+
+@keyframes uparrow
+    0%
+        transform: translateY(0)
+        opacity: 0.4
+    100%
+        transform: translateY(-0.4em)
+        opacity: 0.9
+
+@keyframes downarrow 
+    0%
+        transform: translateY(0)
+        opacity: 0.4
+    100%
+        transform: translateY(0.4em)
+        opacity: 0.9
+
+@keyframes custom-bounce-in-right
+    0%
+        transform: translateX(25px)
+        opacity: 0
+    100%
+        transform: translateX()
+        opacity: 1
+
+.up 
+    animation: uparrow 0.6s infinite alternate ease-in-out
+    // border-bottom: 2em solid $color-10
+
+.down 
+    animation: downarrow 0.6s infinite alternate ease-in-out
+    // border-top: 2em solid $color-10
+
+.arrow-scroll
+    position: absolute
+    // bottom: 5rem
+    left: calc(50% - 20px)
+    // font-family: $font-2-thin
+    font-size: 72px
+    transform-origin: 50% 50%
+    z-index: 100
+    @media screen and (max-width: 767px)
+        bottom: 25px
+    @media screen and (min-width: 768px)
+        bottom: 1rem
+
+
+
+.promo-top-line
+    position: relative
+    padding: calc(.375rem + 3px) 0
+    background-color: $color-30
+    color: $color-ff
+    @extend %font-1-bold
+    font-size: 15px
+    text-align: center
+    .btn-primary
+        position: absolute
+        width: calc(8.33vw + 30px)
+        top: 0
+        right: 0
+        &, &:visited, &:hover
+            color: $color-ff
+    &::before
+        height: 180px
+    @media screen and (max-width: 767px)
+        .btn-primary
+            position: relative
+            width: calc(100% + 60px)
+            top: .75rem
+            left: -30px            
+
+
+
+.section-home-01
+    position: relative
+    padding: 3rem 0 5rem 0
+    @media screen and (min-width: 992px)
+        &::before
+            content: ""
+            position: absolute
+            left: 0
+            right: 0
+            bottom: 0
+            height: calc(1rem + 85px)
+            background-color: $color-ff
+    @media screen and (min-width: 1200px)
+        &::before
+            height: calc(5rem + 85px)
+//swipere.sass
+
+
+
+.home-trama2
+    position: relative
+    margin-bottom: calc(-5rem - 22px)
+    height: 180px
+    background-image: url(../images/trama2.svg)
+    background-position: left
+    z-index: 1
+.home-trama3
+    position: relative
+    margin-bottom: calc(-15rem - 22px)
+    height: 291px
+    background-image: url(../images/trama3.svg)
+    background-position: left
+    z-index: 10
+
+
+
+
+@keyframes swiperSlideShow
+    0%
+        width: 0
+    100%
+        width: 100%
+
+@keyframes swiperSlideHide 
+    0%
+        width: 100%
+    100%
+        width: 0
+
+// .swiper-pagination-bullet
+//         width: 10px
+//         height: 10px
+//         background: $color-05
+//         opacity: 1
+//         margin-right: 10px
+// .swiper-pagination-bullet-active
+//     position: relative
+//     background: $color-10
+//     &::after
+//         content: ""
+//         display: block
+//         width: 20px
+//         height: 20px
+//         border: solid 1px $color-10
+//         -webkit-border-radius: 50%
+//         -moz-border-radius: 50%
+//         border-radius: 50%
+//         position: absolute
+//         top: -5px
+//         left: -5px
+
+
+
+// .swiper-box-home1x
+//     position: relative
+//     // padding: 140px 0
+//     // height: calc(100% - 140px)
+//     .swiper-container
+//         position: relative
+//         padding: 140px 0
+//     .swiper-wrapper
+//         height: auto !important
+//     .swiper-slide
+//         // margin-top: 140px
+//         // margin-bottom: 140px
+//         // height: calc(100% - 140px)
+//         article
+//             position: absolute
+//             bottom: -80px
+//             width: 100%
+//             // width: 25vw
+//             // padding-left: 30px
+//             opacity: 0
+//             transform: translateX(25%)
+//             transition: all 1.5s ease
+//             z-index: 10
+//             > span:nth-child(1),
+//             > p:nth-child(1)
+//                 display: block
+//                 @extend %font-1-bold
+//                 line-height: 1
+//                 color: $color-10
+//                 // text-transform: lowercase
+//                 margin-bottom: 0
+//             > span:nth-child(2),
+//             > p:nth-child(2)
+//                 display: block
+//                 padding-top: 10px
+//                 @extend %font-1-light
+//                 color: #E8F3FA
+//                 text-transform: uppercase
+//                 margin-bottom: 0
+//     .swiper-slide-active
+//         article
+//             opacity: 1
+//             transition-delay: 1s
+//             transform: translateX(0)
+//     @media screen and (max-width: 575px)
+//         .swiper-pagination
+//             bottom: -160px
+//             right: 0
+//         .swiper-slide article
+//             left: 0
+//             bottom: -35px
+//     @media screen and (min-width: 576px)
+//         .swiper-pagination
+//             bottom: -30px
+//             right: 0
+//         .swiper-slide article
+//             left: 0
+//             bottom: -50px
+//     @media screen and (min-width: 992px)
+//         .swiper-container
+//             width: 300%
+//             left: -100%
+//         .swiper-slide
+//             padding-right: calc((100vw - ((8.33vw + 30px) * 2)) / 24)
+//             padding-left: calc((100vw - ((8.33vw + 30px) * 2)) / 24)
+//         .swiper-slide article
+//             left: calc((100vw - ((8.33vw + 30px) * 2)) / 12 * -1)
+//             bottom: -28px //-80px
+//         .swiper-pagination
+//             bottom: 100px
+//             right: -100px
+//             right: calc((((100vw - ((8.33vw + 30px) * 2)) / 24) * -1))
+
+
+
+
+// .swiper-palette
+//     width: 54px
+//     height: 120px
+// .swiper-button-next, .swiper-button-prev
+//     position: relative
+//     top: auto
+//     margin-top: 0
+//     width: 54px
+//     height: 42px
+//     background-size: contain
+//     background-position: center
+//     &::after
+//         display: none
+// .swiper-button-next, .swiper-container-rtl .swiper-button-prev
+//     right: auto
+//     left: auto
+//     background-image: url(../images/icons/arrow-next.svg)
+//     margin-bottom: 5px
+// .swiper-button-prev, .swiper-container-rtl .swiper-button-next
+//     right: auto
+//     left: auto
+//     background-image: url(../images/icons/arrow-prev.svg)
+
+
+
+.hero-phrase
+    position: absolute
+    top: calc(100% - 262px)
+    z-index: 1
+    .hero-phrase-content
+        > span:nth-child(1)
+            display: block
+            @extend %font-1-bold
+            font-size: 90px
+            line-height: 1
+            color: $color-10
+        > span:nth-child(2)
+            display: block
+            padding-top: 10px
+            @extend %font-1-light
+            font-size: 18px
+            color: #E8F3FA
+            text-transform: uppercase
+
+
+.section-title
+    margin-bottom: 30px
+    h1, h2, h3, h4, h5
+        line-height: 1
+        font-weight: 500
+        font-size: 2.22rem
+        color: $color-10
+
+.link-all
+    font-weight: 700
+
+.link-more
+    position: relative
+    // left: -30px
+    left: -23px
+    display: inline-flex
+    align-items: center
+    @extend %font-1-light
+    // font-size: 21px
+    text-transform: uppercase
+    color: $color-ff !important
+    // overflow: hidden
+    transition: all .35s ease
+    &::before
+        content: ""
+        display: inline-block
+        width: 25px
+        height: 25px
+        background-image: url(../images/icons/arrow-circle-next.svg)
+        background-position: center
+        background-repeat: no-repeat
+        background-size: contain
+        opacity: 0
+        transform: translateX(-30px)
+        transition: all .35s ease
+    &::after
+        content: ""
+        display: inline-block
+        width: 25px
+        height: 25px
+        margin-left: 15px
+        background-image: url(../images/icons/arrow-circle-next.svg)
+        background-position: center
+        background-repeat: no-repeat
+        background-size: contain
+        transition: all .35s ease
+    &:hover
+        left: 0
+        &::before
+            opacity: 1
+            margin-right: 15px
+            transform: translateX(0)
+        &::after
+            opacity: 0
+            transform: translateX(30px)
+
+
+// threesixty
+.threesixty-container
+    position: relative
+    width: 50%
+    margin: auto
+    // &::before,
+    // &::after
+    //     content: ""
+    //     position: absolute
+    //     // top: -20px
+    //     bottom: -12px
+    //     display: block
+    //     width: 47px
+    //     height: 41px
+    //     background-position: center
+    //     background-repeat: no-repeat
+    //     background-size: contain
+    // &::before
+    //     background-image: url(../images/icons/arrow-prev.svg)
+    //     left: -50px
+    // &::after
+    //     background-image: url(../images/icons/arrow-next.svg)
+    //     right: -50px
+.threesixty
+    margin: auto
+
+/* The slider itself */
+input[type="range"],
+.threesixty-slider
+    -webkit-appearance: none !important
+    -moz-appearance: none !important
+    appearance: none !important
+    width: 100%
+    // height: 1px
+    // border-bottom: dotted 1px #707070
+    height: 2px
+    background: #707070
+    outline: none
+    // opacity: 0.7
+    -webkit-transition: .2s
+    transition: opacity .2s
+    border-radius: 25px
+    // &::before,
+    // &::after
+    //     content: ""
+    //     position: absolute
+    //     bottom: -20px
+    //     display: block
+    //     width: 47px
+    //     height: 41px
+    //     background-position: center
+    //     background-repeat: no-repeat
+    //     background-size: contain
+    // &::before
+    //     background-image: url(../images/icons/arrow-prev.svg)
+    //     left: -42px
+    // &::after
+    //     background-image: url(../images/icons/arrow-next.svg)
+    //     right: -42px
+
+/* Mouse-over effects */
+.threesixty-slider:hover
+    opacity: 1
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+// input[type="range"]::-webkit-slider-thumb
+//     -webkit-appearance: none
+//     appearance: none
+//     width: 15px
+//     height: 15px
+//     background: $color-10
+//     border: solid 1px $color-10
+//     cursor: pointer
+//     -webkit-border-radius: 50%
+//     -moz-border-radius: 50%
+//     border-radius: 50%
+// input[type="range"]::-moz-range-thumb
+//     width: 25px
+//     height: 25px
+//     background: $color-10
+//     border: solid 1px $color-10
+//     cursor: pointer
+//     -webkit-border-radius: 50%
+//     -moz-border-radius: 50%
+//     border-radius: 50%
+// input[type="range"]::-webkit-slider-runnable-track,
+// input[type="range"]::-moz-range-track
+//     width: 100%
+//     height: 8.4px
+//     cursor: pointer
+//     box-shadow: none
+//     background: $color-10
+//     border-radius: 1.3px
+//     border: 0.2px solid $color-10
+//     border-radius: 25px
+//     height: 2px
+// input[type="range"]:focus::-webkit-slider-runnable-track
+//     background: $color-10
+
+
+
+.form-range:focus::-webkit-slider-thumb
+    box-shadow: none
+.form-range:focus::-moz-range-thumb
+    box-shadow: none
+.form-range::-webkit-slider-thumb
+    background-color: $color-10
+.form-range::-webkit-slider-thumb:active
+    background-color: $color-10
+.form-range::-webkit-slider-runnable-track
+    background: #707070
+    // height: 2px
+.form-range::-moz-range-thumb
+    background-color: $color-10
+.form-range::-moz-range-thumb:active
+    background-color: $color-10
+.form-range::-moz-range-track
+    background-color: #707070
+    // height: 2px
+
+
+
+.share
+    margin-top: 15px
+    margin-bottom: 30px
+
+
+
+.cn-button.bootstrap
+    color: $color-ff !important
+    background: $color-10 !important

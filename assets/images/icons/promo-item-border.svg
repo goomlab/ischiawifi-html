@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="76.402" height="76.503" viewBox="0 0 76.402 76.503">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rettangolo_59" data-name="Rettangolo 59" width="76.402" height="76.503" fill="#00abc8"/>
+    </clipPath>
+  </defs>
+  <g id="Raggruppa_407" data-name="Raggruppa 407" transform="translate(0 0.001)">
+    <rect id="Rettangolo_53" data-name="Rettangolo 53" width="3.819" height="45.331" transform="translate(72.583 31.171)" fill="#00abc8"/>
+    <rect id="Rettangolo_54" data-name="Rettangolo 54" width="3.83" height="45.331" transform="translate(64.921 31.171)" fill="#00abc8"/>
+    <rect id="Rettangolo_55" data-name="Rettangolo 55" width="3.826" height="45.331" transform="translate(57.274 31.171)" fill="#00abc8"/>
+    <rect id="Rettangolo_56" data-name="Rettangolo 56" width="45.331" height="3.819" transform="translate(0 15.307)" fill="#00abc8"/>
+    <rect id="Rettangolo_57" data-name="Rettangolo 57" width="45.331" height="3.83" transform="translate(0 7.646)" fill="#00abc8"/>
+    <rect id="Rettangolo_58" data-name="Rettangolo 58" width="45.331" height="3.827" transform="translate(0 -0.001)" fill="#00abc8"/>
+    <g id="Raggruppa_399" data-name="Raggruppa 399" transform="translate(0 -0.001)">
+      <g id="Raggruppa_398" data-name="Raggruppa 398" clip-path="url(#clip-path)">
+        <path id="Tracciato_481" data-name="Tracciato 481" d="M125.49,9.135A31.036,31.036,0,0,0,103.559,0V3.825A27.373,27.373,0,0,1,130.8,31.171h3.825A31.047,31.047,0,0,0,125.49,9.135" transform="translate(-58.226 0.001)" fill="#00abc8"/>
+        <path id="Tracciato_482" data-name="Tracciato 482" d="M120.076,24.373a23.446,23.446,0,0,0-16.52-6.9V21.3A19.732,19.732,0,0,1,123.15,41h3.826a23.45,23.45,0,0,0-6.9-16.625" transform="translate(-58.225 -9.826)" fill="#00abc8"/>
+        <path id="Tracciato_483" data-name="Tracciato 483" d="M114.663,39.614a15.828,15.828,0,0,0-11.108-4.66V38.78A12.088,12.088,0,0,1,115.5,50.825h3.826a15.828,15.828,0,0,0-4.662-11.211" transform="translate(-58.224 -19.653)" fill="#00abc8"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,165 @@
+.section-home-notices
+    @media screen and (max-width: 767px)
+        padding: 10rem 0 5rem
+    @media screen and (min-width: 768px)
+        padding: 10rem 0 5rem
+    .section-title
+        h1, h2, h3, h4, h5
+            font-size: 2.22rem !important
+            font-weight: 300
+            color: $color-30
+.notice-item
+    display: block
+    > a
+        display: block
+    .notice-body
+        padding: 15px 0
+    h3
+        font-weight: 300
+        font-size: 1.66rem
+        color: $color-00
+        // &::before
+        //     content: "— "
+    .notice-item-content
+        font-wegith: 300
+        font-size: 1.11rem
+        z-index: 21
+        position: absolute
+        top: 4%
+        left: -8%
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        width: 90%
+        height: 92%
+        font-size: 1rem
+        line-height: 1.2
+        color: #fff
+        padding: 16% 10% 30px 16%
+        opacity: 0
+        background-color: rgba(0,92,185,0.7)
+        transform: translateX(-30%)
+        transition: all 1.5s ease
+        > span:first-child
+            position: relative
+            color: $color-ff !important
+            &::before
+                content: "—"
+                position: absoulte
+                top: -15px
+                left: 0
+                display: block
+
+
+
+
+.swiper-box-notices
+    position: relative
+    .slide-main
+        position: relative
+        height: 100%
+        padding-top: 5rem
+        // width: calc(100% / 5)
+        position: absolute
+        top: 0
+        // left: calc(100% / 5)
+        z-index: 1
+        // background: #ddd
+    .swiper
+        position: relative
+        // width: calc(100% + ((8.33vw + 30px) * 4))
+        // left: calc((8.33vw + 30px) * -2)
+    .swiper-wrapper,
+    .swiper-slide
+        height: auto !important
+    .swiper-slide
+        margin-left: 0
+        // padding-right: 60px
+        transition: all .35s ease
+    
+    .swiper-palette
+        position: absolute
+        top: 0
+        margin-top: 10rem
+        // left: calc(100% / 3)
+        // margin-top: calc(143.33% - 255px)
+        // left: calc( 50% - 27px )
+    .swiper-button-next,
+    .swiper-button-prev
+        position: relative
+        top: auto
+        left: auto
+        right: auto
+        bottom: auto
+        width: 61px
+        height: 35px
+        background-position: center
+        background-size: contain
+        background-repeat: no-repeat
+        margin-top: 0
+        margin-bottom: 15px
+        &::after
+            display: none
+            content: ""
+    .swiper-button-prev
+        background-image: url(../images/icons/arrow-prev-green.svg)
+    .swiper-button-next
+        background-image: url(../images/icons/arrow-next-green.svg)
+    @media screen and (max-width: 767px)
+        .swiper
+            width: calc(100% + (30px * 2))
+            left: calc(30px * -1)
+            padding-top: 200px
+        .swiper-slide
+            padding-left: 120px
+            padding-right: 30px
+        .swiper-slide-active,
+        .swiper-slide:hover
+            .notice-item-content
+                opacity: 1
+                transform: translateX(0)
+        .slide-main
+            width: 100%
+            left: 0
+            .section-title
+                position: absolute
+                top: 0
+                left: 30px
+                right: 30px
+        .swiper-palette
+            margin-top: 5rem
+            // margin-top: calc(177.77% + 145px)
+            left: 30px
+    @media screen and (min-width: 768px)
+        .swiper
+            width: calc(100% + (30px * 4))
+            left: calc(30px * -2)
+        .swiper-slide-prev,
+        .swiper-slide:hover
+            .notice-item-content
+                opacity: 1
+                transform: translateX(0)
+        .swiper-slide-prev
+            margin-left: calc( ((100vw - (30px * 2)) + (30px * 4)) / 3)
+        .slide-main
+            width: calc( ((100vw - (30px * 2)) + (30px * 4)) / 3 )
+            left: calc(30px * 2)
+    @media screen and (min-width: 992px)
+        .swiper
+            width: calc(100% + (30px * 4))
+            left: calc(30px * -2)
+        .swiper-slide-prev
+            margin-left: calc( ((100vw - (30px * 2)) + (30px * 4)) / 3)
+        .slide-main
+            width: calc( ((100vw - (30px * 2)) + (30px * 4)) / 3 )
+            left: calc(30px * 2)
+    @media screen and (min-width: 1200px)
+        .swiper
+            width: calc(100% + ((8.33vw + 30px) * 4))
+            left: calc((8.33vw + 30px) * -2)
+        .swiper-slide-prev
+            // width: calc( ((100vw - ((8.33vw + 30px) * 2)) + ((8.33vw + 30px) * 4)) / 5)!important
+            margin-left: calc( ((100vw - ((8.33vw + 30px) * 2)) + ((8.33vw + 30px) * 4)) / 5)
+        .slide-main
+            width: calc(100% / 5)
+            left: calc(100% / 5)

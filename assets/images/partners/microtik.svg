@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="171.611" height="41.694" viewBox="0 0 171.611 41.694">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rettangolo_89" data-name="Rettangolo 89" width="171.611" height="41.694" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Raggruppa_439" data-name="Raggruppa 439" transform="translate(0)">
+    <g id="Raggruppa_450" data-name="Raggruppa 450" transform="translate(0)">
+      <path id="Tracciato_544" data-name="Tracciato 544" d="M35.185,17.629,16.966,42.457,11.807,17.629h-4.6L0,45.286H3.069l6.273-25.41h.092l5.344,25.41h3.162L36.3,20.265h.093l-6.83,25.021h3.114l7.11-27.658Z" transform="translate(0 -4.175)" fill="#fff"/>
+      <path id="Tracciato_545" data-name="Tracciato 545" d="M54.445,27.679,49.283,47.667h2.929l5.159-19.988Z" transform="translate(-11.672 -6.556)" fill="#fff"/>
+      <path id="Tracciato_546" data-name="Tracciato 546" d="M63.813,27.674l-5.1,19.991h2.926L63.5,40.421l5.112-3.561,6.37,10.806h3.2L70.939,35.388l11.339-7.709h-3.9l-14.036,9.76-.093-.076,2.5-9.688Z" transform="translate(-13.906 -6.554)" fill="#fff"/>
+      <g id="Raggruppa_438" data-name="Raggruppa 438">
+        <g id="Raggruppa_437" data-name="Raggruppa 437" clip-path="url(#clip-path)">
+          <path id="Tracciato_547" data-name="Tracciato 547" d="M90.251,27.6,85.093,47.584h2.936l2.7-10.457c.975-3.758,3.765-7.281,9.017-7.359.557,0,1.114.04,1.671.04l.65-2.441c-.511-.039-1.071-.039-1.579-.039-4.287-.04-6.834,2.015-8.692,4.88H91.7L92.909,27.6Z" transform="translate(-20.154 -6.472)" fill="#fff" fill-rule="evenodd"/>
+          <path id="Tracciato_548" data-name="Tracciato 548" d="M126.847,34.745c0-4.919-3.9-7.824-9.481-7.824-8.553,0-13.386,6.277-13.386,12.822,0,5,3.394,8.327,9.574,8.327,8.878,0,13.293-6.584,13.293-13.325m-2.929.5c0,4.644-3.394,10.767-9.807,10.767-4.88,0-7.2-2.633-7.2-6.505,0-4.687,3.533-10.535,9.945-10.535,4.694,0,7.066,2.558,7.066,6.273" transform="translate(-24.627 -6.376)" fill="#fff" fill-rule="evenodd"/>
+          <path id="Tracciato_549" data-name="Tracciato 549" d="M161.883,25.284l1.9-7.659H135.154l-1.893,7.67h9.185v0h10.242v0Z" transform="translate(-31.562 -4.174)" fill="#fff" fill-rule="evenodd"/>
+          <path id="Tracciato_550" data-name="Tracciato 550" d="M142.848,32.476l-4.058,16.319h10.225l4.068-16.315v-.008H142.848Z" transform="translate(-32.871 -7.691)" fill="#fff" fill-rule="evenodd"/>
+          <path id="Tracciato_551" data-name="Tracciato 551" d="M171.665,28.96l-4.04,16.319h9.2l4.041-16.319Zm10.128-3.676,1.911-7.659h-9.2l-1.925,7.67Z" transform="translate(-39.701 -4.174)" fill="#fff" fill-rule="evenodd"/>
+          <path id="Tracciato_552" data-name="Tracciato 552" d="M191.554,17.624l-6.881,27.654h9.2l1.439-5.73L197.409,38l3.255,7.281h9.992l-6.137-12.007,10.831-8.095H204.336l-6.788,5.887h-.093l3.3-13.439Z" transform="translate(-43.738 -4.174)" fill="#fff" fill-rule="evenodd"/>
+          <path id="Tracciato_553" data-name="Tracciato 553" d="M61.09,0c1.126,7.809,5.315,12.55,13.857,12.939A10.528,10.528,0,0,1,61.09,0" transform="translate(-14.362 0)" fill="#fff" fill-rule="evenodd"/>
+          <path id="Tracciato_554" data-name="Tracciato 554" d="M55.195,1.8c.1-.021.107.043.114.114a16.322,16.322,0,0,0,5.155,11.339,16.253,16.253,0,0,0,11.788,4.58C62.386,21.763,52.015,12.322,55.191,1.8" transform="translate(-12.933 -0.425)" fill="#fff" fill-rule="evenodd"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

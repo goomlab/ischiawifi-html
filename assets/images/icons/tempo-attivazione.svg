@@ -1,0 +1,11 @@
+<svg id="Raggruppa_470" data-name="Raggruppa 470" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="49.99" height="50" viewBox="0 0 49.99 50">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rettangolo_107" data-name="Rettangolo 107" width="49.99" height="50" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Raggruppa_469" data-name="Raggruppa 469" clip-path="url(#clip-path)">
+    <path id="Tracciato_633" data-name="Tracciato 633" d="M25,50A25,25,0,1,1,41.3,6.091l1.34,1.158V1.821h2.021V9.908a1.011,1.011,0,0,1-1.01,1.01H35.982V8.9h5.523L39.818,7.469a22.956,22.956,0,1,0,8.151,18.343H49.99A25.03,25.03,0,0,1,25,50" fill="#fff"/>
+    <path id="Tracciato_634" data-name="Tracciato 634" d="M122.565,106.959v-2.021h9.391V91.894h2.021v14.054a1.011,1.011,0,0,1-1.01,1.01Z" transform="translate(-107.963 -80.946)" fill="#fff"/>
+  </g>
+</svg>
