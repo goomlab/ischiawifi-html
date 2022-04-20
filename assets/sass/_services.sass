@@ -1,0 +1,70 @@
+.service-item
+    text-align: center
+    font-size: 15px
+    font-weight: 400
+    margin-bottom: 30px
+    > a
+        display: block
+    img.ico
+        margin: auto auto 15px auto
+    h3, h4
+        // color: $color-ff
+        font-weight: 400
+        font-size: 1.11rem
+        margin-bottom: 0
+        text-transform: uppercase
+        line-height: 1.5
+    p:last-child
+        margin-bottom: 0
+.bg-10
+    .service-item
+        &, & h3, & h4
+            color: $color-ff
+
+.service-item-big
+    text-align: center
+    margin-bottom: 5rem
+    > a
+        display: block
+        text-decoration: none
+        &, &:hover, &:visited
+            color: $color-00
+    .ico-wrap
+        display: flex
+        align-items: center
+        justify-content: center
+        width: 150px
+        height: 150px
+        border-radius: 50%
+        margin: 0 auto 2rem
+        background: rgb(0,92,185) !important
+        background: linear-gradient(180deg, rgba(0,92,185,1) 0%, rgba(76,168,196,1) 100%) !important
+    h3
+        position: relative
+        font-weight: 300
+        text-transform: uppercase
+        margin-bottom: 30px
+        &::after
+            content: ""
+            position: absolute
+            width: 50px
+            height: 1px
+            background-color: $color-00
+            bottom: -10px
+            left: calc(50% - 25px)
+    .btn
+        border-radius: 30px
+        padding-left: 2rem
+        padding-right: 2rem
+        color: $color-ff
+.partners
+    ul
+        @extend %ul-reset
+        display: flex
+        flex-wrap: wrap
+        align-items: center
+        justify-content: center
+        margin: 0 -30px
+        li
+            margin: 0 30px 30px 30px
+

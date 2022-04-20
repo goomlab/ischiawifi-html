@@ -61,6 +61,10 @@ b
     @media screen and (min-width: 1400px)
         margin-left: calc(8.33vw + 30px)
         margin-right: calc(8.33vw + 30px)
+    @media screen and (min-width: 1600px)
+        width: 1570px
+        margin-left: auto
+        margin-right: auto
 
 .position-relative
     position: relative
@@ -79,9 +83,16 @@ b
     background-color: $color-10 !important
     &, & h1, & h2, & h3, & h4, & h5, & h6
         color: #fff !important
+.bg-10-gradient
+    background: rgb(0,92,185) !important
+    background: linear-gradient(180deg, rgba(0,92,185,1) 0%, rgba(76,168,196,1) 100%) !important
+    &, & h1, & h2, & h3, & h4, & h5, & h6
+        color: #fff !important
 .bg-30
     background-color: $color-30 !important
     color: #fff !important
+.bg-30-light
+    background-color: $color-30-light !important
 .bg-03
     background-color: $color-03
     color: #fff
@@ -246,7 +257,13 @@ b
     background-image: url(../images/trama3.svg)
     background-position: left
     z-index: 10
-
+.home-trama4
+    position: relative
+    margin-bottom: -10rem
+    height: 343px
+    background-image: url(../images/trama4.svg)
+    background-position: left
+    z-index: 10
 
 
 

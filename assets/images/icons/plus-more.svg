@@ -1,0 +1,12 @@
+<svg id="Raggruppa_493" data-name="Raggruppa 493" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 25 25">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rettangolo_116" data-name="Rettangolo 116" width="25" height="25" fill="none" stroke="#10329b" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Raggruppa_492" data-name="Raggruppa 492" clip-path="url(#clip-path)">
+    <circle id="Ellisse_15" data-name="Ellisse 15" cx="12.271" cy="12.271" r="12.271" transform="translate(0.229 0.229)" fill="none" stroke="#10329b" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Linea_25" data-name="Linea 25" y2="13.388" transform="translate(12.5 5.806)" fill="none" stroke="#10329b" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Linea_26" data-name="Linea 26" x1="13.388" transform="translate(5.806 12.5)" fill="none" stroke="#10329b" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

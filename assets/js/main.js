@@ -186,7 +186,7 @@ $('.scrollto').click(function(){
  */
 var swipers = [];
 $('.swiper').each(function(index){
-  if( $(this).hasClass('swiper-home1') ){
+  if( $(this).hasClass('swiper-home1') || $(this).hasClass('swiper-home2') ){
     $(this).attr('data-index', index);
     $(this).parent().find('.swiper-button-next').addClass('swiper-button-next-' + index);
     $(this).parent().find('.swiper-button-prev').addClass('swiper-button-prev-' + index);

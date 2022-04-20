@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1400.94" height="343.21" viewBox="0 0 1400.94 343.21">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rettangolo_50" data-name="Rettangolo 50" width="1400.94" height="343.21" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Raggruppa_583" data-name="Raggruppa 583" opacity="0.15">
+    <rect id="Rettangolo_38" data-name="Rettangolo 38" width="147.395" height="12.417" transform="translate(678.36 190.273)" fill="#009ebd"/>
+    <rect id="Rettangolo_39" data-name="Rettangolo 39" width="147.395" height="12.454" transform="translate(678.36 165.399)" fill="#009ebd"/>
+    <rect id="Rettangolo_40" data-name="Rettangolo 40" width="147.395" height="12.441" transform="translate(678.36 140.52)" fill="#009ebd"/>
+    <rect id="Rettangolo_41" data-name="Rettangolo 41" width="397.962" height="12.417" transform="translate(0 189.634)" fill="#009ebd"/>
+    <rect id="Rettangolo_42" data-name="Rettangolo 42" width="397.962" height="12.454" transform="translate(0 164.724)" fill="#009ebd"/>
+    <rect id="Rettangolo_43" data-name="Rettangolo 43" width="397.962" height="12.443" transform="translate(0 139.858)" fill="#009ebd"/>
+    <g id="Raggruppa_396" data-name="Raggruppa 396">
+      <g id="Raggruppa_395" data-name="Raggruppa 395" clip-path="url(#clip-path)">
+        <path id="Tracciato_456" data-name="Tracciato 456" d="M435.332,142.861a100.916,100.916,0,0,0,71.31,29.705v-12.44A89,89,0,0,1,418.057,71.21H405.618a100.952,100.952,0,0,0,29.714,71.651" transform="translate(171.717 30.146)" fill="#009ebd"/>
+        <path id="Tracciato_457" data-name="Tracciato 457" d="M445.53,125.266a76.237,76.237,0,0,0,53.714,22.426v-12.44A64.157,64.157,0,0,1,435.533,71.21H423.091a76.247,76.247,0,0,0,22.439,54.056" transform="translate(179.114 30.146)" fill="#009ebd"/>
+        <path id="Tracciato_458" data-name="Tracciato 458" d="M455.727,107.662a51.462,51.462,0,0,0,36.119,15.153V110.373A39.3,39.3,0,0,1,453.01,71.21H440.57a51.466,51.466,0,0,0,15.157,36.452" transform="translate(186.514 30.146)" fill="#009ebd"/>
+        <path id="Tracciato_459" data-name="Tracciato 459" d="M449.644,29.705A100.916,100.916,0,0,0,378.334,0V12.44a89,89,0,0,1,88.585,88.916h12.439a100.951,100.951,0,0,0-29.714-71.651" transform="translate(160.166)" fill="#009ebd"/>
+        <path id="Tracciato_460" data-name="Tracciato 460" d="M432.043,39.9a76.237,76.237,0,0,0-53.714-22.426v12.44a64.157,64.157,0,0,1,63.712,64.042h12.441A76.247,76.247,0,0,0,432.043,39.9" transform="translate(160.164 7.398)" fill="#009ebd"/>
+        <path id="Tracciato_461" data-name="Tracciato 461" d="M414.451,50.107a51.465,51.465,0,0,0-36.119-15.153V47.4a39.3,39.3,0,0,1,38.836,39.163h12.44a51.467,51.467,0,0,0-15.157-36.452" transform="translate(160.165 14.798)" fill="#009ebd"/>
+        <path id="Tracciato_462" data-name="Tracciato 462" d="M336.824,29.714a100.916,100.916,0,0,0-29.705,71.31h12.44a89,89,0,0,1,88.916-88.585V0a100.951,100.951,0,0,0-71.651,29.714" transform="translate(130.018)" fill="#009ebd"/>
+        <path id="Tracciato_463" data-name="Tracciato 463" d="M347.021,39.914A76.237,76.237,0,0,0,324.6,93.628h12.44a64.157,64.157,0,0,1,64.042-63.712V17.475a76.247,76.247,0,0,0-54.056,22.439" transform="translate(137.416 7.398)" fill="#009ebd"/>
+        <path id="Tracciato_464" data-name="Tracciato 464" d="M357.227,50.111A51.472,51.472,0,0,0,342.073,86.23h12.443a39.3,39.3,0,0,1,39.163-38.836V34.954a51.467,51.467,0,0,0-36.452,15.157" transform="translate(144.815 14.798)" fill="#009ebd"/>
+        <path id="Tracciato_465" data-name="Tracciato 465" d="M351.248,142.289a100.915,100.915,0,0,0,29.705-71.31h-12.44A89,89,0,0,1,279.6,159.564V172a100.952,100.952,0,0,0,71.651-29.714" transform="translate(118.366 30.049)" fill="#009ebd"/>
+        <path id="Tracciato_466" data-name="Tracciato 466" d="M333.653,124.69a76.236,76.236,0,0,0,22.426-53.714h-12.44A64.157,64.157,0,0,1,279.6,134.688v12.441a76.247,76.247,0,0,0,54.056-22.439" transform="translate(118.366 30.047)" fill="#009ebd"/>
+        <path id="Tracciato_467" data-name="Tracciato 467" d="M316.049,107.095A51.465,51.465,0,0,0,331.2,70.976H318.76A39.3,39.3,0,0,1,279.6,109.812v12.44a51.467,51.467,0,0,0,36.452-15.157" transform="translate(118.366 30.047)" fill="#009ebd"/>
+        <rect id="Rettangolo_44" data-name="Rettangolo 44" width="147.395" height="12.417" transform="translate(825.754 140.52)" fill="#009ebd"/>
+        <rect id="Rettangolo_45" data-name="Rettangolo 45" width="147.395" height="12.454" transform="translate(825.754 165.357)" fill="#009ebd"/>
+        <rect id="Rettangolo_46" data-name="Rettangolo 46" width="147.395" height="12.441" transform="translate(825.754 190.249)" fill="#009ebd"/>
+        <rect id="Rettangolo_47" data-name="Rettangolo 47" width="147.395" height="12.417" transform="translate(1253.545 141.159)" fill="#009ebd"/>
+        <rect id="Rettangolo_48" data-name="Rettangolo 48" width="147.395" height="12.454" transform="translate(1253.545 166.033)" fill="#009ebd"/>
+        <rect id="Rettangolo_49" data-name="Rettangolo 49" width="147.395" height="12.441" transform="translate(1253.545 190.911)" fill="#009ebd"/>
+        <path id="Tracciato_468" data-name="Tracciato 468" d="M755.014,128.414a100.912,100.912,0,0,0-71.308-29.705v12.44a89.006,89.006,0,0,1,88.585,88.916h12.437a100.952,100.952,0,0,0-29.714-71.651" transform="translate(289.444 41.788)" fill="#009ebd"/>
+        <path id="Tracciato_469" data-name="Tracciato 469" d="M737.419,138.611a76.237,76.237,0,0,0-53.714-22.426v12.44a64.157,64.157,0,0,1,63.712,64.042h12.441a76.247,76.247,0,0,0-22.439-54.056" transform="translate(289.444 49.187)" fill="#009ebd"/>
+        <path id="Tracciato_470" data-name="Tracciato 470" d="M719.824,148.816a51.465,51.465,0,0,0-36.119-15.153V146.1a39.3,39.3,0,0,1,38.836,39.163h12.44a51.466,51.466,0,0,0-15.157-36.452" transform="translate(289.444 56.586)" fill="#009ebd"/>
+        <path id="Tracciato_471" data-name="Tracciato 471" d="M740.7,241.57a100.916,100.916,0,0,0,71.31,29.705v-12.44a89.006,89.006,0,0,1-88.585-88.916H710.99A100.944,100.944,0,0,0,740.7,241.57" transform="translate(300.995 71.935)" fill="#009ebd"/>
+        <path id="Tracciato_472" data-name="Tracciato 472" d="M750.906,223.975A76.237,76.237,0,0,0,804.62,246.4v-12.44a64.157,64.157,0,0,1-63.712-64.042H728.467a76.246,76.246,0,0,0,22.439,54.056" transform="translate(308.394 71.935)" fill="#009ebd"/>
+        <path id="Tracciato_473" data-name="Tracciato 473" d="M761.1,206.371a51.465,51.465,0,0,0,36.119,15.153V209.082a39.305,39.305,0,0,1-38.836-39.163h-12.44A51.467,51.467,0,0,0,761.1,206.371" transform="translate(315.792 71.935)" fill="#009ebd"/>
+        <path id="Tracciato_474" data-name="Tracciato 474" d="M853.621,241.463a100.916,100.916,0,0,0,29.705-71.31h-12.44a89,89,0,0,1-88.916,88.585v12.439a100.949,100.949,0,0,0,71.651-29.714" transform="translate(331.044 72.034)" fill="#009ebd"/>
+        <path id="Tracciato_475" data-name="Tracciato 475" d="M836.026,223.864a76.236,76.236,0,0,0,22.426-53.714h-12.44a64.157,64.157,0,0,1-64.042,63.712V246.3a76.247,76.247,0,0,0,54.056-22.439" transform="translate(331.044 72.032)" fill="#009ebd"/>
+        <path id="Tracciato_476" data-name="Tracciato 476" d="M818.422,206.269a51.465,51.465,0,0,0,15.153-36.119H821.133a39.3,39.3,0,0,1-39.163,38.836v12.44a51.467,51.467,0,0,0,36.452-15.157" transform="translate(331.044 72.032)" fill="#009ebd"/>
+        <path id="Tracciato_477" data-name="Tracciato 477" d="M839.2,128.888a100.915,100.915,0,0,0-29.705,71.31h12.44a89,89,0,0,1,88.917-88.585V99.174A100.951,100.951,0,0,0,839.2,128.888" transform="translate(342.695 41.985)" fill="#009ebd"/>
+        <path id="Tracciato_478" data-name="Tracciato 478" d="M849.4,139.089A76.237,76.237,0,0,0,826.969,192.8h12.44a64.157,64.157,0,0,1,64.042-63.712V116.65A76.247,76.247,0,0,0,849.4,139.089" transform="translate(350.094 49.383)" fill="#009ebd"/>
+        <path id="Tracciato_479" data-name="Tracciato 479" d="M859.6,149.285A51.465,51.465,0,0,0,844.447,185.4h12.441a39.3,39.3,0,0,1,39.163-38.836v-12.44A51.467,51.467,0,0,0,859.6,149.285" transform="translate(357.493 56.783)" fill="#009ebd"/>
+      </g>
+    </g>
+  </g>
+</svg>

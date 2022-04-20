@@ -40,6 +40,12 @@
     .tab-content
         padding-top: 5rem
 
+.promoTabDescription
+    color: $color-10
+    font-size: 1.38rem
+    text-align: center
+    margin-bottom: 5rem
+
 .promo-item
     position: relative
     border: solid 1px #C4BFBF
@@ -48,7 +54,7 @@
     text-align: center
     line-height: 1.2
     transition: all .35s
-    margin-bottom: 30px
+    margin-bottom: 5rem
     &::before
         content: ""
         position: absolute
@@ -73,7 +79,7 @@
         font-size: .83rem
         font-weight: 500
         margin-bottom: 15px
-    h3
+    h1, h2, h3
         font-size: 1.66rem
         font-weight: 300
         text-transform: uppercase
@@ -132,7 +138,43 @@
                 content: ""
                 // width: 100%
                 // text-align: center
-
+    .promo-discount
+        position: relative
+        font-size: 1.39rem
+        top: -1rem
+        &::after
+            content: ""
+            position: absolute
+            top: 15px
+            left: calc(50% - 30px)
+            width: 60px
+            height: 1px
+            background-color: $color-00
+            transform: rotate(-25deg)
+    .promo-set
+        position: relative
+        border: solid 1px #C4BFBF
+        border-radius: 17px
+        padding: 1rem .5rem .5rem .5rem
+        text-align: center
+        line-height: 1.2
+        transition: all .35s
+        margin-bottom: 5rem
+        &::before
+            content: ""
+            position: absolute
+            top: -10px
+            right: -10px
+            display: block
+            width: 76px
+            height: 76px
+            background-image: url(../images/icons/promo-item-border.svg)
+        p
+            margin-bottom: .5rem
+        p:first-child
+            font-weight: 700
+            color: $color-30
+        
     .buttons
         @extend %ul-reset
         display: flex
@@ -150,6 +192,19 @@
         border-radius: 20px
     img.numero-verde
         height: 45px
+    
+    &.promo-item-top
+        border: none
+        margin-bottom: 0
+        &::before
+            display: none
+        &:hover
+            box-shadow: none
+            .btn
+                box-shadow: none
+        h1, h2, h3
+            color: $color-10
+            font-weight: 500
 
 .promo-item-swiper
     .promo-type
@@ -195,41 +250,193 @@
 
 
 
-
-
-
-.service-item
-    text-align: center
-    font-size: 15px
-    font-weight: 400
-    margin-bottom: 30px
-    > a
+.single-offer-sliderTop
+    position: relative
+    &::before
+        content: ""
+        positioon: absolute
+        top: 0
+        left: 0
+        right: 0
         display: block
-    img.ico
-        margin: auto auto 15px auto
-    h3, h4
-        // color: $color-ff
-        font-weight: 400
-        font-size: 1.11rem
-        margin-bottom: 0
+        width: 100%
+        height: 5rem
+        background: rgb(76,168,196);
+        background: linear-gradient(180deg, rgba(76,168,196,1) 0%, rgba(255,255,255,1) 100%);
+    .swiper-box-home2
+        .figure-3-2
+            .trama1_1
+                bottom: -105px
+                left: 0
+                width: 100% 
+            @media screen and (max-width: 991px)
+                margin-bottom: 5rem
+            @media screen and (min-width: 1600px)
+                margin-bottom: 5rem
+
+
+.promo-item-long
+    .promoTabDescription
+        text-align: left
+        margin-bottom: 30px
+    .promo-type
+        color: $color-30
         text-transform: uppercase
-        line-height: 1.5
-    p:last-child
-        margin-bottom: 0
-.bg-10
-    .service-item
-        &, & h3, & h4
-            color: $color-ff
-
-
-.partners
-    ul
+        font-size: .83rem
+        font-weight: 500
+        margin-bottom: 15px
+    .ul-details
         @extend %ul-reset
         display: flex
         flex-wrap: wrap
-        align-items: center
-        justify-content: center
-        margin: 0 -30px
+        margin-bottom: 1rem
         li
-            margin: 0 30px 30px 30px
+            &:not(:last-child)::after
+                content: " | "
+                margin: 0 5px
+            &, a, a:visited, a:hover
+                color: $color-10
+                font-size: 0.89rem
+                font-weight: 700
+            a:hover
+                color: $color-30
+    .buttons
+        @extend %ul-reset
+        display: flex
+        margin: 0 -5px
+        li
+            padding: 0 5px
+            .btn
+                height: 45px
+                color: $color-ff
+                background-color: $color-10
+                border-radius: 15px
+        img.numero-verde
+            height: 45px
 
+.promo-spec-ul
+    @extend %ul-reset
+    margin-bottom: 30px
+    li
+        padding: 1rem 0
+        font-size: 0.89rem
+        border-top: solid 1px $color-30
+        // &:last-child
+        //     border-bottom: solid 1px $color-30 !important
+    h3, h4, h5, h6
+        font-size: 1.1rem
+        font-weight: 500
+    h3, h4, h5, h6, p
+        margin-top: 5px 
+        margin-bottom: 5px 
+
+.accordion-item
+    background-color: transparent
+    border-bottom: solid 1px $color-30
+    &:first-child
+        border-top: solid 1px $color-30 !important
+    &:last-child
+        border-bottom: solid 1px $color-30 !important
+        margin-bottom: 1rem
+    .accordion-button
+        padding: 1rem 0 calc(1rem + 25px) 0
+        display: block
+        font-size: 0.89rem
+        &::before
+            content: ""
+            position: absolute
+            top: 1.5rem
+            left: -30px
+            display: block
+            width: 25px
+            height: 18px
+            background-image: url(../images/icons/check.svg)
+            background-position: center
+            background-repeat: no-repeat
+            background-size: contain
+        &::after
+            position: absolute
+            bottom: 1rem
+            left: 0
+            width: 25px
+            height: 25px
+            background-image: url(../images/icons/plus-more.svg)
+        &:not(.collapse)
+            color: $color-00
+            background-color: transparent
+            box-shadow: none
+        &:not(.collapsed)::after
+                background-image: url(../images/icons/minus-more.svg)
+        h3, h4, h5, h6
+            font-size: 1.1rem
+            font-weight: 500
+        h3, h4, h5, h6, p
+            margin-top: 5px 
+            margin-bottom: 5px 
+        .more
+            font-weight: 700
+            color: $color-10
+    .accordion-body
+        font-size: 0.89rem
+        padding: 1rem 0
+.no-accordion
+    &:hover, .accordion-item:hover, .accordion-item .accordion-button:hover
+        cursor: default !important
+    .accordion-item
+        .accordion-button
+            padding: 1rem 0
+            &::after
+                display: none !important
+.no-check
+    .accordion-item
+        .accordion-button
+            &::before
+                display: none !important
+
+.form-offerta
+    .title
+        font-size: 2rem
+        color: $color-10
+        font-weight: 400
+        line-height: 1
+    .description
+        font-size: 1.6rem
+        color: $color-10
+        margin-bottom: 15px
+    .accordion-item
+        position: relative
+        .accordion-button
+            padding-right: 45px
+            &::before
+                display: none !important
+        .promo-pack-service-ico
+            position: absolute
+            top: 1rem
+            left: -55px
+        .form-check
+            position: absolute
+            top: 1rem
+            // left: -55px
+            right: 0
+            z-index: 10000
+        .form-check-input
+            width: 30px
+            height: 30px
+            border-radius: 8px !important
+            background-color: #fff
+            &:checked
+                background-color: $color-ff
+                border-color: rgba(0,0,0,.25)
+            &:focus
+                box-shadow: none
+        .form-check-input:checked[type=checkbox]
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%230033A1' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e")
+    .buttons
+        @extend %ul-reset
+        display: flex
+        margin: 0 -5px
+        li
+            padding: 0 5px
+            width: 50%
+        img.numero-verde
+            height: 45px

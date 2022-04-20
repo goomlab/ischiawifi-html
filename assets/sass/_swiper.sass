@@ -1,10 +1,13 @@
-.swiper-box-home1
+.swiper-box-home1,
+.swiper-box-home2
     position: relative
     .swiper-wrapper
         height: auto !important
     .figure-3-2
         figure
             @extend %figure-absolute
+        @media screen and (max-width: 991px)
+            margin-bottom: 5rem
     .trama
         position: absolute
         left: 0
@@ -71,6 +74,114 @@
     @media screen and (max-width: 991px)
         .promo-item
             margin-top: 3rem
+
+
+.swiper-box-home2
+    &.bg-10-gradient
+        margin-bottom: 5rem
+        @media screen and (max-width: 991px)
+            &, & h1, & h2, & h3, & h4, & h5, & h6
+                color: $color-10 !important
+            & > .container-full > .row > div:last-child
+                position: relative
+                margin-top: 5rem
+                &::before
+                    content: ""
+                    position: absolute
+                    top: -5rem
+                    left: -30px
+                    bottom: -30px
+                    right: 0
+                    width: calc(100% + 60px)
+                    background-color: $color-ff
+                    z-index: 0
+                .promo-item-swiper
+                    position: relative
+                    z-index: 1
+            &::before
+                content: ""
+                position: absolute
+                top: 66.6%
+                left: 0
+                bottom: 0
+                right: 0
+                background-color: $color-ff
+            .figure-3-2
+                margin-bottom: 0 !important
+    .figure-3-2
+        @media screen and (max-width: 991px)
+            margin-bottom: 148px
+    figure
+        position: relative
+        display: flex
+        align-items: center
+        justify-content: center
+        margin: 0
+        img
+            height: 100%
+            margin: auto
+    .trama1_1
+        position: absolute
+        left: auto
+        bottom: -100px
+        right: 0
+        height: 148px
+        width: 645px
+        background-image: url(../images/trama1_1.svg)
+        background-position: center !important
+        background-repeat: no-repeat
+        z-index: 1
+        @media screen and (max-width: 991px)
+            // display: none
+            left: 30px
+            right: 30px
+            width: calc(100% - 60px)
+            top: 0
+            padding-top: calc(66.6% + 5rem)
+            background-position: bottom center !important
+        @media screen and (min-width: 992px)
+            left: 30px
+        @media screen and (min-width: 1400px)
+            left: calc(8.33vw + 30px)
+        @media screen and (min-width: 1600px)
+            left: calc(((100vw - 1570px) / 2) + (1570px / 12))
+            // width: 100%
+    .trama1_offerte
+        position: absolute
+        left: 0
+        right: 0
+        height: 190px
+        background-image: url(../images/trama1_offerte.svg)
+        background-position: center !important
+        @media screen and (max-width: 991px)
+            padding-top: calc(66.6% + 68px)
+            bottom: auto
+            top: 0
+            background-position: bottom center !important
+        @media screen and (min-width: 992px)
+            bottom: -65px
+    .swiper-palette
+        @media screen and (max-width: 991px)
+            bottom: auto
+        @media screen and (min-width: 992px)
+            bottom: 50%
+    .swiper-pagination
+        text-align: right
+        @media screen and (max-width: 991px)
+            display: none !important
+        @media screen and (min-width: 992px)
+            left: auto
+            right: 30px
+            bottom: -.75rem
+        @media screen and (min-width: 1200px)
+            bottom: 3rem
+        @media screen and (min-width: 1400px)
+            left: auto
+            right: calc(8.33vw + 30px)
+    .swiper-pagination-bullet
+        border: solid 1px $color-10
+        opacity: 1
+            
 
 .swiper-box-reviews
     .swiper-wrapper

@@ -1,0 +1,11 @@
+<svg id="Raggruppa_600" data-name="Raggruppa 600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40.037" height="40.434" viewBox="0 0 40.037 40.434">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rettangolo_153" data-name="Rettangolo 153" width="40.037" height="40.433" fill="#005cb9"/>
+    </clipPath>
+  </defs>
+  <g id="Raggruppa_599" data-name="Raggruppa 599" clip-path="url(#clip-path)">
+    <path id="Tracciato_684" data-name="Tracciato 684" d="M40.036.718A.719.719,0,0,0,39.318,0H.718A.719.719,0,0,0,0,.718v39a.719.719,0,0,0,.718.718h38.6a.719.719,0,0,0,.718-.718Zm-38.6.718H38.6V39H1.436Z" fill="#005cb9"/>
+    <path id="Tracciato_685" data-name="Tracciato 685" d="M80.01,71.138H50.9a.719.719,0,0,0-.718.718V92.445a.719.719,0,0,0,.459.669l-.031.049h9.925V95.9a.719.719,0,0,0,.718.718h8.4a.719.719,0,0,0,.718-.718V93.163H80.01a.719.719,0,0,0,.718-.718V71.856a.719.719,0,0,0-.718-.718M68.939,92.446V95.18H61.975V92.446a.719.719,0,0,0-.718-.718H51.622V72.574h5.724v6.645a.718.718,0,0,0,1.436,0V72.574h3.491v6.645a.719.719,0,0,0,1.437,0V72.574H67.2v6.645a.718.718,0,1,0,1.436,0V72.574H72.13v6.645a.718.718,0,0,0,1.436,0V72.574h5.725V91.728H69.657a.719.719,0,0,0-.718.718" transform="translate(-45.438 -64.408)" fill="#005cb9"/>
+  </g>
+</svg>
