@@ -261,8 +261,8 @@
         display: block
         width: 100%
         height: 5rem
-        background: rgb(76,168,196);
-        background: linear-gradient(180deg, rgba(76,168,196,1) 0%, rgba(255,255,255,1) 100%);
+        background: rgb(76,168,196)
+        background: linear-gradient(180deg, rgba(76,168,196,.6) 0%, rgba(255,255,255,1) 100%)
     .swiper-box-home2
         .figure-3-2
             .trama1_1
@@ -338,6 +338,8 @@
     &:last-child
         border-bottom: solid 1px $color-30 !important
         margin-bottom: 1rem
+    &, .accordion-header, .accordion-button
+        position: relative
     .accordion-button
         padding: 1rem 0 calc(1rem + 25px) 0
         display: block
@@ -379,6 +381,16 @@
     .accordion-body
         font-size: 0.89rem
         padding: 1rem 0
+    @media screen and (max-width: 767px)
+        // div:not(:no-accordion)
+        padding-bottom: calc(1rem + 25px)
+        .accordion-button
+            margin-left: -.75rem
+            &::after
+                bottom: calc(-1rem - 25px)
+                left: .75rem
+        .accordion-body
+            padding: calc(1rem + 25px) 0
 .no-accordion
     &:hover, .accordion-item:hover, .accordion-item .accordion-button:hover
         cursor: default !important

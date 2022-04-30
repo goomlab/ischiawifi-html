@@ -1069,10 +1069,11 @@ b {
 
 .home-trama2 {
   position: relative;
-  margin-bottom: calc(-5rem - 22px);
+  margin-bottom: calc(-5rem - 15px);
   height: 180px;
   background-image: url(../images/trama2.svg);
   background-position: left;
+  background-repeat: repeat-x;
   z-index: 1;
 }
 
@@ -1082,6 +1083,7 @@ b {
   height: 291px;
   background-image: url(../images/trama3.svg);
   background-position: left;
+  background-repeat: repeat-x;
   z-index: 10;
 }
 
@@ -1951,7 +1953,7 @@ input[type="range"],
   width: 100%;
   height: 5rem;
   background: #4ca8c4;
-  background: linear-gradient(180deg, #4ca8c4 0%, white 100%);
+  background: linear-gradient(180deg, rgba(76, 168, 196, 0.6) 0%, white 100%);
 }
 
 .single-offer-sliderTop .swiper-box-home2 .figure-3-2 .trama1_1 {
@@ -2060,6 +2062,10 @@ input[type="range"],
   margin-bottom: 1rem;
 }
 
+.accordion-item, .accordion-item .accordion-header, .accordion-item .accordion-button {
+  position: relative;
+}
+
 .accordion-item .accordion-button {
   padding: 1rem 0 calc(1rem + 25px) 0;
   display: block;
@@ -2117,6 +2123,22 @@ input[type="range"],
 .accordion-item .accordion-body {
   font-size: 0.89rem;
   padding: 1rem 0;
+}
+
+@media screen and (max-width: 767px) {
+  .accordion-item {
+    padding-bottom: calc(1rem + 25px);
+  }
+  .accordion-item .accordion-button {
+    margin-left: -.75rem;
+  }
+  .accordion-item .accordion-button::after {
+    bottom: calc(-1rem - 25px);
+    left: .75rem;
+  }
+  .accordion-item .accordion-body {
+    padding: calc(1rem + 25px) 0;
+  }
 }
 
 .no-accordion:hover, .no-accordion .accordion-item:hover, .no-accordion .accordion-item .accordion-button:hover {
@@ -2241,6 +2263,7 @@ input[type="range"],
 .service-item-big {
   text-align: center;
   margin-bottom: 5rem;
+  padding: 1.5rem;
 }
 
 .service-item-big > a {
