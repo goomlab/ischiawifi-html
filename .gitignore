@@ -15,3 +15,5 @@
 .history/
 
 *assets/images/examples/*
+*assets/fonts/*
+*assets/webfonts/*
