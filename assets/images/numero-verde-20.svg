@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="160.152" height="50.681" viewBox="0 0 160.152 50.681">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rettangolo_108" data-name="Rettangolo 108" width="18.439" height="42.915" fill="#10329b"/>
+    </clipPath>
+  </defs>
+  <g id="Raggruppa_629" data-name="Raggruppa 629" transform="translate(-1007.826 -547)">
+    <path id="Tracciato_635" data-name="Tracciato 635" d="M136.054,0H0V41.86H50.68" transform="translate(1167.478 596.626) rotate(180)" fill="none" stroke="#10329b" stroke-width="1"/>
+    <text id="_800_033_795" data-name="800 033 795" transform="translate(1093.424 583.166)" fill="#10329b" font-size="27" font-family="AlegreyaSans-Bold, Alegreya Sans" font-weight="700"><tspan x="-61.654" y="0">800 033 795</tspan></text>
+    <text id="numero_verde" data-name="numero verde" transform="translate(1062.424 557)" fill="#10329b" font-size="11" font-family="AlegreyaSans-Bold, Alegreya Sans" font-weight="700"><tspan x="-30.624" y="0">numero verde</tspan></text>
+    <g id="Raggruppa_472" data-name="Raggruppa 472" transform="translate(1007.826 554.766)">
+      <g id="Raggruppa_471" data-name="Raggruppa 471" clip-path="url(#clip-path)">
+        <path id="Tracciato_636" data-name="Tracciato 636" d="M18.439,2.692l-.1,5.7a2.5,2.5,0,0,1-2.692,2.692l-5.488.1a17.353,17.353,0,0,0-2.9,10.148,17.571,17.571,0,0,0,2.9,10.355H15.54a2.74,2.74,0,0,1,2.692,2.692v5.8a2.5,2.5,0,0,1-2.692,2.692c-1.864,0-3.831.1-5.8,0-5.592,0-9.527-9.941-9.734-20.5C-.2,11.39,3.735,0,9.948,0h5.8a2.74,2.74,0,0,1,2.692,2.692Z" transform="translate(0)" fill="#10329b" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>

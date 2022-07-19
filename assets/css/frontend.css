@@ -146,7 +146,8 @@ header .navbar-menu li, .menu1 ul.lang-menu li, .menu1 ul.social-menu li, .promo
 }
 
 .swiper-box-home1 .figure-3-2 figure,
-.swiper-box-home2 .figure-3-2 figure {
+.swiper-box-home2 .figure-3-2 figure, .swiper-box-home1 .figure-full figure,
+.swiper-box-home2 .figure-full figure {
   position: absolute;
   top: 0;
   left: 0;
@@ -1289,6 +1290,35 @@ input[type="range"],
   }
 }
 
+.swiper-box-home1 .figure-full,
+.swiper-box-home2 .figure-full {
+  position: relative;
+}
+
+@media screen and (max-width: 991px) {
+  .swiper-box-home1 .figure-full,
+  .swiper-box-home2 .figure-full {
+    padding-top: 66.6%;
+    margin-bottom: 5rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .swiper-box-home1 .figure-full,
+  .swiper-box-home2 .figure-full {
+    width: 100%;
+    height: calc(100% + 5rem);
+  }
+  .swiper-box-home1 .figure-full figure,
+  .swiper-box-home2 .figure-full figure {
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+  }
+}
+
 .swiper-box-home1 .trama,
 .swiper-box-home2 .trama {
   position: absolute;
@@ -1718,6 +1748,11 @@ input[type="range"],
   line-height: 1;
 }
 
+.promo-item h1 img, .promo-item h2 img, .promo-item h3 img {
+  position: relative;
+  top: -2px;
+}
+
 .promo-item .pricebox {
   position: relative;
   display: flex;
@@ -1810,6 +1845,10 @@ input[type="range"],
   line-height: 1.2;
   transition: all .35s;
   margin-bottom: 5rem;
+  width: 100%;
+  max-width: 260px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .promo-item .promo-set::before {
@@ -1876,6 +1915,20 @@ input[type="range"],
 .promo-item.promo-item-top h1, .promo-item.promo-item-top h2, .promo-item.promo-item-top h3 {
   color: #005CB9;
   font-weight: 500;
+}
+
+.bg-10 .promo-item2 {
+  padding: 0 15px;
+}
+
+.bg-10 .promo-item2 .pricebox {
+  background-color: #FFF;
+  color: #005CB9;
+}
+
+.bg-10 .promo-item2 .promo-set {
+  background-color: #FFF;
+  color: #0033A1;
 }
 
 .promo-item-swiper .promo-type {
@@ -2130,11 +2183,12 @@ input[type="range"],
     padding-bottom: calc(1rem + 25px);
   }
   .accordion-item .accordion-button {
-    margin-left: -.75rem;
+    margin-left: 0;
+    padding-bottom: 0;
   }
   .accordion-item .accordion-button::after {
     bottom: calc(-1rem - 25px);
-    left: .75rem;
+    left: 0;
   }
   .accordion-item .accordion-body {
     padding: calc(1rem + 25px) 0;

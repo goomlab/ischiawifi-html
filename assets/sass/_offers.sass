@@ -85,6 +85,9 @@
         text-transform: uppercase
         margin-bottom: 30px
         line-height: 1
+        img
+            position: relative
+            top: -2px
     .pricebox
         position: relative
         display: flex
@@ -160,6 +163,10 @@
         line-height: 1.2
         transition: all .35s
         margin-bottom: 5rem
+        width: 100%
+        max-width: 260px
+        margin-left: auto
+        margin-right: auto
         &::before
             content: ""
             position: absolute
@@ -205,6 +212,16 @@
         h1, h2, h3
             color: $color-10
             font-weight: 500
+
+.bg-10
+    .promo-item2
+        padding: 0 15px
+        .pricebox
+            background-color: $color-ff
+            color: $color-10
+        .promo-set
+            background-color: $color-ff
+            color: $color-20
 
 .promo-item-swiper
     .promo-type
@@ -385,10 +402,13 @@
         // div:not(:no-accordion)
         padding-bottom: calc(1rem + 25px)
         .accordion-button
-            margin-left: -.75rem
+            // margin-left: -.75rem
+            margin-left: 0
+            padding-bottom: 0
             &::after
                 bottom: calc(-1rem - 25px)
-                left: .75rem
+                // left: .75rem
+                left: 0
         .accordion-body
             padding: calc(1rem + 25px) 0
 .no-accordion
